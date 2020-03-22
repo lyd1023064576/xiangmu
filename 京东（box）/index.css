@@ -1,0 +1,273 @@
+html,
+body,
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+
+/* 顶部 */
+
+.top {
+    width: 100%;
+    height: 0.45rem;
+    background-color: #e43130;
+    /* display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center; */
+}
+
+.top-ul {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    width: 100%;
+    height: 0.45rem;
+    -webkit-box-align: center;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+}
+
+.top-ul-li2 {
+    width: 73%;
+    height: 0.3rem;
+    background-color: white;
+    border-radius: 0.15rem;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.top-ul-li2>p {
+    position: absolute;
+    top: 0.07rem;
+    left: 0.5rem;
+}
+
+.top-ul-li2>img {
+    width: 0.2rem;
+    height: 0.15rem;
+    position: absolute;
+    top: 0.07rem;
+    left: 0.15rem;
+}
+
+
+/* 主体部分 */
+
+.main {
+    -webkit-box-flex: 1;
+    overflow-y: auto;
+    width: 100%;
+    height: 12rem;
+    background-image: url(./img/bjt2.png);
+    background-size: 100% 100%;
+}
+
+.main1 {
+    background-image: url(./img/bjt1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1.4rem;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+
+.main1>img {
+    width: 94%;
+    height: 1.4rem;
+    border-radius: 0.1rem;
+}
+
+.main2 {
+    width: 100%;
+    height: 1.64rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: justify;
+    padding: 0.05rem 0;
+    box-sizing: border-box;
+}
+
+.main2a {
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-orient: horizontal;
+}
+
+.main2a>dl {
+    width: 20%;
+    height: 0.74rem;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+}
+
+.main3 {
+    width: 100%;
+    height: 1rem;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+
+.main3>img {
+    width: 33.33%;
+    height: 1rem;
+}
+
+.main4 {
+    width: 100%;
+    height: 1.76rem;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.main4a {
+    width: 94%;
+    height: 94%;
+    background-color: white;
+    border-radius: 0.1rem;
+}
+
+.main4a2 {
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-orient: horizontal;
+}
+
+.main4-ul {
+    width: 100%;
+    height: 0.34rem;
+    /* background-color: yellow; */
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+}
+
+.main4-li1 {
+    width: 1.93rem;
+    height: 0.34rem;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+}
+
+.main4-li2 {
+    width: 0.68rem;
+    height: 0.34rem;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+}
+
+.main4a-dl>dt {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+
+.main4a-li1 {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    width: 100%;
+    height: 0.2rem;
+    -webkit-box-align: center;
+}
+
+.main4a-li2 {
+    display: -webkit-box;
+    /* -webkit-box-orient: horizontal; */
+    -webkit-box-pack: center;
+    width: 100%;
+    height: 0.2rem;
+}
+
+.main4-p {
+    width: 0.12rem;
+    height: 0.12rem;
+    background-color: red;
+    border-radius: 0.06rem;
+    color: white;
+    text-align: center;
+    line-height: 0.12rem;
+    font-size: 0.13rem;
+}
+
+.main4a-dl {
+    margin-top: 0.05rem;
+    width: 25%;
+    height: 1.2rem;
+    /* background-color: yellow; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: justify;
+}
+
+.main4a-li1>p {
+    width: 30%;
+    height: 0.16rem;
+    text-align: center;
+}
+
+.main5 {
+    width: 100%;
+    height: 1.2rem;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+
+.main5>img {
+    width: 47%;
+    height: 1.2rem;
+}
+
+.main6 {
+    width: 94%;
+    height: 1rem;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+    margin: 0 auto;
+}
+
+.main6-img1 {
+    width: 30%;
+    height: 0.83rem;
+}
+
+.main6-img2 {
+    width: 32%;
+    height: 0.93rem;
+}
+
+
+/* 底部 */
+
+.footer {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+
+.footera {
+    width: 94%;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+}
+
+.footera>img {
+    width: 16%;
+    height: 0.46rem;
+}
